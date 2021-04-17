@@ -1,0 +1,46 @@
+{
+  "name": "json-schema-color",
+  "version": "1.0.0",
+  "description": "JSONSchema for colors.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChocolateLoverRaj/json-schema-color.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "JSONSchema",
+    "colors",
+    "hex"
+  ],
+  "author": "Rajas Paranjpe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChocolateLoverRaj/json-schema-color/issues"
+  },
+  "homepage": "https://github.com/ChocolateLoverRaj/json-schema-color#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/json-schema": "^7.0.7",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "ajv": "^6.12.6",
+    "eslint": "^7.24.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "files": [
+    "dist"
+  ]
+}

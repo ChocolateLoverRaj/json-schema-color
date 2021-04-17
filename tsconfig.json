@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "target": "ES6"
+  },
+  "include": [
+    "lib/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "lib/*.test.ts"
+  ]
+}
